@@ -1,0 +1,350 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9222E8E7-7D1E-4CCE-885F-E3A7D3FAB4B4}|BlogApp.API\\BlogApp.API.csproj|c:\\users\\exteoymak\\desktop\\blogapp\\blogapp\\blogapp.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9222E8E7-7D1E-4CCE-885F-E3A7D3FAB4B4}|BlogApp.API\\BlogApp.API.csproj|solutionrelative:blogapp.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D660E09-6F8A-4CA5-8381-030AD1C2F3CB}|BlogApp.UI\\BlogApp.UI.csproj|c:\\users\\exteoymak\\desktop\\blogapp\\blogapp\\blogapp.ui\\controllers\\blogpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D660E09-6F8A-4CA5-8381-030AD1C2F3CB}|BlogApp.UI\\BlogApp.UI.csproj|solutionrelative:blogapp.ui\\controllers\\blogpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D660E09-6F8A-4CA5-8381-030AD1C2F3CB}|BlogApp.UI\\BlogApp.UI.csproj|c:\\users\\exteoymak\\desktop\\blogapp\\blogapp\\blogapp.ui\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D660E09-6F8A-4CA5-8381-030AD1C2F3CB}|BlogApp.UI\\BlogApp.UI.csproj|solutionrelative:blogapp.ui\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9222E8E7-7D1E-4CCE-885F-E3A7D3FAB4B4}|BlogApp.API\\BlogApp.API.csproj|c:\\users\\exteoymak\\desktop\\blogapp\\blogapp\\blogapp.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9222E8E7-7D1E-4CCE-885F-E3A7D3FAB4B4}|BlogApp.API\\BlogApp.API.csproj|solutionrelative:blogapp.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E7C97BB-6DC0-4421-85F1-2E5DCD8D9F3A}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|c:\\users\\exteoymak\\desktop\\blogapp\\blogapp\\blogapp.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E7C97BB-6DC0-4421-85F1-2E5DCD8D9F3A}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|solutionrelative:blogapp.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BA9B2F-B436-4E3A-8D49-2CAB0AEFC62E}|BlogApp.Application\\BlogApp.Application.csproj|c:\\users\\exteoymak\\desktop\\blogapp\\blogapp\\blogapp.application\\usecases\\userusecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BA9B2F-B436-4E3A-8D49-2CAB0AEFC62E}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\usecases\\userusecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BA9B2F-B436-4E3A-8D49-2CAB0AEFC62E}|BlogApp.Application\\BlogApp.Application.csproj|c:\\users\\exteoymak\\desktop\\blogapp\\blogapp\\blogapp.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BA9B2F-B436-4E3A-8D49-2CAB0AEFC62E}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D660E09-6F8A-4CA5-8381-030AD1C2F3CB}|BlogApp.UI\\BlogApp.UI.csproj|c:\\users\\exteoymak\\desktop\\blogapp\\blogapp\\blogapp.ui\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D660E09-6F8A-4CA5-8381-030AD1C2F3CB}|BlogApp.UI\\BlogApp.UI.csproj|solutionrelative:blogapp.ui\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E7C97BB-6DC0-4421-85F1-2E5DCD8D9F3A}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|c:\\users\\exteoymak\\desktop\\blogapp\\blogapp\\blogapp.infrastructure\\repositories\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E7C97BB-6DC0-4421-85F1-2E5DCD8D9F3A}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|solutionrelative:blogapp.infrastructure\\repositories\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D660E09-6F8A-4CA5-8381-030AD1C2F3CB}|BlogApp.UI\\BlogApp.UI.csproj|c:\\users\\exteoymak\\desktop\\blogapp\\blogapp\\blogapp.ui\\views\\blogpost\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D660E09-6F8A-4CA5-8381-030AD1C2F3CB}|BlogApp.UI\\BlogApp.UI.csproj|solutionrelative:blogapp.ui\\views\\blogpost\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D660E09-6F8A-4CA5-8381-030AD1C2F3CB}|BlogApp.UI\\BlogApp.UI.csproj|c:\\users\\exteoymak\\desktop\\blogapp\\blogapp\\blogapp.ui\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D660E09-6F8A-4CA5-8381-030AD1C2F3CB}|BlogApp.UI\\BlogApp.UI.csproj|solutionrelative:blogapp.ui\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D660E09-6F8A-4CA5-8381-030AD1C2F3CB}|BlogApp.UI\\BlogApp.UI.csproj|c:\\users\\exteoymak\\desktop\\blogapp\\blogapp\\blogapp.ui\\views\\blogpost\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D660E09-6F8A-4CA5-8381-030AD1C2F3CB}|BlogApp.UI\\BlogApp.UI.csproj|solutionrelative:blogapp.ui\\views\\blogpost\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D660E09-6F8A-4CA5-8381-030AD1C2F3CB}|BlogApp.UI\\BlogApp.UI.csproj|c:\\users\\exteoymak\\desktop\\blogapp\\blogapp\\blogapp.ui\\views\\admin\\getallposts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D660E09-6F8A-4CA5-8381-030AD1C2F3CB}|BlogApp.UI\\BlogApp.UI.csproj|solutionrelative:blogapp.ui\\views\\admin\\getallposts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D660E09-6F8A-4CA5-8381-030AD1C2F3CB}|BlogApp.UI\\BlogApp.UI.csproj|c:\\users\\exteoymak\\desktop\\blogapp\\blogapp\\blogapp.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D660E09-6F8A-4CA5-8381-030AD1C2F3CB}|BlogApp.UI\\BlogApp.UI.csproj|solutionrelative:blogapp.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D660E09-6F8A-4CA5-8381-030AD1C2F3CB}|BlogApp.UI\\BlogApp.UI.csproj|c:\\users\\exteoymak\\desktop\\blogapp\\blogapp\\blogapp.ui\\views\\blogpost\\createpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D660E09-6F8A-4CA5-8381-030AD1C2F3CB}|BlogApp.UI\\BlogApp.UI.csproj|solutionrelative:blogapp.ui\\views\\blogpost\\createpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 26,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "BlogApp.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "BlogApp.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAIA1wGQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T20:00:10.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlogPostController.cs",
+              "DocumentMoniker": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.UI\\Controllers\\BlogPostController.cs",
+              "RelativeDocumentMoniker": "BlogApp.UI\\Controllers\\BlogPostController.cs",
+              "ToolTip": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.UI\\Controllers\\BlogPostController.cs",
+              "RelativeToolTip": "BlogApp.UI\\Controllers\\BlogPostController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwHgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T21:10:06.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.UI\\Models\\UserDto.cs",
+              "RelativeDocumentMoniker": "BlogApp.UI\\Models\\UserDto.cs",
+              "ToolTip": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.UI\\Models\\UserDto.cs",
+              "RelativeToolTip": "BlogApp.UI\\Models\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T12:35:54.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "BlogApp.Application\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T13:02:04.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "BlogApp.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "BlogApp.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwEgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T15:09:47.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlogPostsController.cs",
+              "DocumentMoniker": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.API\\Controllers\\BlogPostsController.cs",
+              "RelativeDocumentMoniker": "BlogApp.API\\Controllers\\BlogPostsController.cs",
+              "ToolTip": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.API\\Controllers\\BlogPostsController.cs",
+              "RelativeToolTip": "BlogApp.API\\Controllers\\BlogPostsController.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAkwL8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:59:33.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.UI\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "BlogApp.UI\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.UI\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "BlogApp.UI\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAowJEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T11:53:42.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.Application\\UseCases\\UserUseCases.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\UseCases\\UserUseCases.cs",
+              "ToolTip": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.Application\\UseCases\\UserUseCases.cs",
+              "RelativeToolTip": "BlogApp.Application\\UseCases\\UserUseCases.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAvwB0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T13:03:06.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BlogPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.Infrastructure\\Repositories\\BlogPostRepository.cs",
+              "RelativeDocumentMoniker": "BlogApp.Infrastructure\\Repositories\\BlogPostRepository.cs",
+              "ToolTip": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.Infrastructure\\Repositories\\BlogPostRepository.cs",
+              "RelativeToolTip": "BlogApp.Infrastructure\\Repositories\\BlogPostRepository.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAuwFYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:36:59.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BlogApp.UI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BlogApp.UI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwBwAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T15:20:19.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.UI\\Views\\BlogPost\\Index.cshtml",
+              "RelativeDocumentMoniker": "BlogApp.UI\\Views\\BlogPost\\Index.cshtml",
+              "ToolTip": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.UI\\Views\\BlogPost\\Index.cshtml",
+              "RelativeToolTip": "BlogApp.UI\\Views\\BlogPost\\Index.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAowFEAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T20:45:45.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.UI\\Views\\BlogPost\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "BlogApp.UI\\Views\\BlogPost\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.UI\\Views\\BlogPost\\SignUp.cshtml",
+              "RelativeToolTip": "BlogApp.UI\\Views\\BlogPost\\SignUp.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBMAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-30T12:03:36.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreatePost.cshtml",
+              "DocumentMoniker": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.UI\\Views\\BlogPost\\CreatePost.cshtml",
+              "RelativeDocumentMoniker": "BlogApp.UI\\Views\\BlogPost\\CreatePost.cshtml",
+              "ToolTip": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.UI\\Views\\BlogPost\\CreatePost.cshtml",
+              "RelativeToolTip": "BlogApp.UI\\Views\\BlogPost\\CreatePost.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T15:11:57.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.UI\\Views\\Admin\\Login.cshtml",
+              "RelativeDocumentMoniker": "BlogApp.UI\\Views\\Admin\\Login.cshtml",
+              "ToolTip": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.UI\\Views\\Admin\\Login.cshtml",
+              "RelativeToolTip": "BlogApp.UI\\Views\\Admin\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T11:51:47.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetAllPosts.cshtml",
+              "DocumentMoniker": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.UI\\Views\\Admin\\GetAllPosts.cshtml",
+              "RelativeDocumentMoniker": "BlogApp.UI\\Views\\Admin\\GetAllPosts.cshtml",
+              "ToolTip": "C:\\Users\\exteoymak\\Desktop\\BlogApp\\BlogApp\\BlogApp.UI\\Views\\Admin\\GetAllPosts.cshtml",
+              "RelativeToolTip": "BlogApp.UI\\Views\\Admin\\GetAllPosts.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T12:39:32.235Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

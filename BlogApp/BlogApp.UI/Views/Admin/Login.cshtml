@@ -1,0 +1,47 @@
+﻿@model BlogApp.UI.Models.LoginDto
+
+@{
+    ViewData["Title"] = "Giriş Yap";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container d-flex align-items-center justify-content-center" style="min-height: 100vh;">
+    <div class="col-md-4">
+        <div class="card shadow">
+            <div class="card-body">
+                <h3 class="text-center mb-4">Giriş Yap</h3>
+
+                @if (TempData["SuccessMessage"] != null)
+                {
+                    <div class="alert alert-success text-center">@TempData["SuccessMessage"]</div>
+                }
+
+                @using (Html.BeginForm("Login", "Admin", FormMethod.Post, new { @class = "needs-validation", novalidate = "novalidate" }))
+                {
+                    <div class="mb-3">
+                        @Html.LabelFor(m => m.Email, new { @class = "form-label" })
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "E-posta adresinizi girin" })
+                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100 mb-3">Giriş Yap</button>
+
+                    <!-- Modern Üye Ol Butonu -->
+                    <div class="text-center">
+                        <a href="/BlogPost/SignUp" class="btn btn-outline-success w-100 fw-bold" style="border-radius: 50px; padding: 10px 0; transition: all 0.3s;">
+                            Üye Ol
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    a.btn-outline-success:hover {
+        background-color: #28a745;
+        color: #fff;
+    }
+</style>

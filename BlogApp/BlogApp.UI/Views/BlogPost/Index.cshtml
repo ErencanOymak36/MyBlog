@@ -1,0 +1,65 @@
+﻿@model List<BlogPostDto>
+@{
+    ViewBag.Title = "My Blog";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="hero-wrap js-fullheight" style="background-image: url('/images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="js-fullheight d-flex justify-content-center align-items-center">
+        <div class="col-md-8 text text-center">
+            <div class="img mb-4" style="background-image: url('/images/person_4.jpg');"></div>
+            <div class="desc">
+                <h2 class="subheading">Hello I'm</h2>
+                <h1 class="mb-4">MY Blog</h1>
+                <p class="mb-4">Güncel ve Doğru  haberler için bloğumu takip edin ve sizlerde güncel duyurularınızı ve  haberler ekleyin.</p>
+               
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="ftco-section">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-2">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <h2 class="mb-4">Gönderiler</h2>
+                <p>Her ufak haber paylaşmaya değerdir. Paylaştıkça bilinçlenilir.</p>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4">
+                    <div class="blog-entry ftco-animate">
+                        <a href="#" class="img img-2" style="background-image: url('/images/image_1.jpg');"></a>
+                        <div class="text text-2 pt-2 mt-3">
+                            <span class="category mb-3 d-block"><a href="#">Technology</a></span>
+                            <h3 class="mb-4"><a href="#">@item.Title</a></h3>
+                            <p class="mb-4">@item.Content</p>
+                            <div class="author mb-4 d-flex align-items-center">
+                                <a href="#" class="img" style="background-image: url('/images/person_2.jpg');"></a>
+                                <div class="ml-3 info">
+                                    <span>Written by</span>
+                                    <h3><a href="#">@item.AuthorName</a>, <span>@item.CreatedAt.ToShortDateString()</span></h3>
+                                </div>
+                            </div>
+                            <div class="meta-wrap align-items-center">
+                                <div class="half order-md-last">
+                                    <p class="meta">
+                                        <span><i class="icon-heart"></i>3</span>
+                                        <span><i class="icon-eye"></i>100</span>
+                                        <span><i class="icon-comment"></i>5</span>
+                                    </p>
+                                </div>
+                                <div class="half">
+                                    <p><a href="#" class="btn py-2">Continue Reading <span class="ion-ios-arrow-forward"></span></a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>

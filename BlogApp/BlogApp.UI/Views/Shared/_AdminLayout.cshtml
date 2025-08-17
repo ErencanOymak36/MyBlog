@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Admin Panel</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet" />
+
+    <link rel="stylesheet" href="~/css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/animate.css" />
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="~/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="~/css/magnific-popup.css" />
+    <link rel="stylesheet" href="~/css/aos.css" />
+    <link rel="stylesheet" href="~/css/ionicons.min.css" />
+    <link rel="stylesheet" href="~/css/bootstrap-datepicker.css" />
+    <link rel="stylesheet" href="~/css/jquery.timepicker.css" />
+    <link rel="stylesheet" href="~/css/flaticon.css" />
+    <link rel="stylesheet" href="~/css/icomoon.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+
+    <style>
+        /* Sidebar genişliği */
+        #colorlib-aside {
+            width: 250px;
+            position: fixed;
+            height: 100vh;
+            overflow-y: auto;
+            background: #fff; /* Dilersen arka plan rengi */
+            padding-top: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+
+        /* Ana içerik sidebar’a göre sağa kaydırıldı */
+        #main-content {
+            margin-left: 250px; /* Sidebar genişliği kadar boşluk */
+            padding: 20px;
+            min-height: 100vh;
+            background: #f8f9fa; /* Hafif açık arka plan (isteğe bağlı) */
+        }
+
+        /* Responsive için (mobilde sidebar kapatılabilir) */
+        @@media (max-width: 768px) {
+            #colorlib-aside
+
+        {
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
+
+        #main-content {
+            margin-left: 0;
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <div id="colorlib-page">
+        <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+
+        <!-- Sidebar -->
+        <aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
+            <h1 id="colorlib-logo"><a href="/">Admin<span>.</span></a></h1>
+
+            @{
+                var roleId = Context.Session.GetInt32("RoleId") ?? 0;
+            }
+            <nav id="colorlib-main-menu" role="navigation">
+                <ul>
+                    
+                    @if (roleId == 1)
+                    {
+                        <li><a href="/BlogPost/Index">Anasayfa</a></li>
+                        <li><a href="/Admin/GetAllPosts">Gönderileri Görüntüle</a></li>
+                        <li><a href="/Admin/GetAllUsers">Kullanıcı Görüntüle</a></li>
+                        <li><a href="/Admin/Logout">Çıkış Yap</a></li>
+                    }
+                    else if (roleId == 0)
+                    {
+                        <li><a href="/BlogPost/Index">Anasayfa</a></li>
+                        <li><a href="/BlogPost/CreatePost">Gönderi Ekle</a></li>
+                        <li><a href="/BlogPost/MyPosts">Gönderilerimi Görüntüle</a></li>
+                        <li><a href="/Admin/Logout">Çıkış Yap</a></li>
+                    }
+                    
+                </ul>
+            </nav>
+
+            <div class="colorlib-footer">
+                <p>
+                    Bu proje Erencan OYMAK tarafından yapılmıştır.
+                </p>
+               
+            </div>
+        </aside>
+
+        <!-- Ana içerik alanı -->
+        <div id="main-content" class="p-4">
+            @RenderBody()
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="~/js/popper.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/jquery.easing.1.3.js"></script>
+    <script src="~/js/jquery.waypoints.min.js"></script>
+    <script src="~/js/jquery.stellar.min.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/js/aos.js"></script>
+    <script src="~/js/jquery.animateNumber.min.js"></script>
+    <script src="~/js/bootstrap-datepicker.js"></script>
+    <script src="~/js/jquery.timepicker.min.js"></script>
+    <script src="~/js/scrollax.min.js"></script>
+    <script src="~/js/google-map.js"></script>
+    <script src="~/js/main.js"></script>
+</body>
+</html>

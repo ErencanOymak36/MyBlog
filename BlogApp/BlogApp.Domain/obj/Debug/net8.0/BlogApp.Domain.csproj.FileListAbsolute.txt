@@ -1,0 +1,11 @@
+C:\Users\exteoymak\Desktop\BlogApp\BlogApp\BlogApp.Domain\bin\Debug\net8.0\BlogApp.Domain.deps.json
+C:\Users\exteoymak\Desktop\BlogApp\BlogApp\BlogApp.Domain\bin\Debug\net8.0\BlogApp.Domain.dll
+C:\Users\exteoymak\Desktop\BlogApp\BlogApp\BlogApp.Domain\bin\Debug\net8.0\BlogApp.Domain.pdb
+C:\Users\exteoymak\Desktop\BlogApp\BlogApp\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\exteoymak\Desktop\BlogApp\BlogApp\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.AssemblyInfoInputs.cache
+C:\Users\exteoymak\Desktop\BlogApp\BlogApp\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.AssemblyInfo.cs
+C:\Users\exteoymak\Desktop\BlogApp\BlogApp\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\exteoymak\Desktop\BlogApp\BlogApp\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.dll
+C:\Users\exteoymak\Desktop\BlogApp\BlogApp\BlogApp.Domain\obj\Debug\net8.0\refint\BlogApp.Domain.dll
+C:\Users\exteoymak\Desktop\BlogApp\BlogApp\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.pdb
+C:\Users\exteoymak\Desktop\BlogApp\BlogApp\BlogApp.Domain\obj\Debug\net8.0\ref\BlogApp.Domain.dll
